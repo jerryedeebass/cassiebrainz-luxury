@@ -130,7 +130,7 @@ export default function StorePage() {
                         className="w-full bg-black hover:bg-luxury-gold hover:text-black text-white luxury-transition font-semibold"
                         size="lg"
                       >
-                        View Details
+                        View Details and Proceed to Order
                       </Button>
                     </Link>
                   </div>

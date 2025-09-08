@@ -50,7 +50,7 @@ export default function HomePage() {
                   size="lg"
                   className="bg-luxury-gold hover:bg-gold-dark text-black font-semibold px-8 py-4 rounded-full luxury-transition hover-gold-glow"
                 >
-                  Explore Collections
+                  Explore Our Collections
                 </Button>
               </Link>
 
