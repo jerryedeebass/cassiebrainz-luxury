@@ -101,7 +101,8 @@ export default function ProductPage({ params }: { params: { id: string } }) {
     window.open(instagramUrl, "_blank")
   }
 
-  const productUrl = `https://cassiebrainz.com/product/${product.id}`
+ const verificationUrl = `${typeof window !== "undefined" ? window.location.
+  origin : "https://cassiebrainz.com"}/verify/${product.id}`
 
   return (
     <div className="min-h-screen bg-white">
@@ -152,7 +153,7 @@ export default function ProductPage({ params }: { params: { id: string } }) {
                 {showQR && (
                   <div className="flex justify-center">
                     <div className="bg-white p-4 rounded-lg border-2 border-luxury-gold">
-                      <QRCodeSVG value={productUrl} size={150} bgColor="#ffffff" fgColor="#000000" level="M" />
+                      <QRCodeSVG value={verificationUrl} size={150} bgColor="#ffffff" fgColor="#000000" level="M" />
                     </div>
                   </div>
                 )}
