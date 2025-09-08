@@ -137,7 +137,7 @@ export default function ProductPage({ params }: { params: { id: string } }) {
               </div>
 
               {/* QR Code Section */}
-              <Card className="p-6">
+              {/*<Card className="p-6">
                 <div className="flex items-center justify-between mb-4">
                   <h3 className="font-serif text-lg font-bold text-black">Authenticity Verification</h3>
                   <Button
@@ -161,7 +161,7 @@ export default function ProductPage({ params }: { params: { id: string } }) {
                 <p className="text-sm text-gray-600 mt-4">
                   Scan this QR code to verify authenticity and view product details on any device.
                 </p>
-              </Card>
+              </Card>*/}
             </div>
 
             {/* Product Details */}
